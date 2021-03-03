@@ -6,7 +6,7 @@ module adder_dataflow(s,ci,a,b,co);
     output [width-1:0]s;
     output co;
 
-    assign {co,s} = a + b + ci;
+    assign {co,s} = a + b + ci; //dataflow用assign
 
 
 
